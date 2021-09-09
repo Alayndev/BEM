@@ -55,6 +55,11 @@ body {
   border-style: none;
 }
 
+.button:hover, .button--yellow:hover {
+  border: solid 3px #f7c74b;
+  font-weight: 500;
+}
+
 .form__submit {
   width: 100%;
   margin-top: 5px;
@@ -124,4 +129,8 @@ body {
   margin-bottom: 15px;
   font-family: "Poppins", sans-serif;
   padding: 7px;
+}
+
+.form__email-input:focus {
+  border: solid 4px #f7c74b;
 }
